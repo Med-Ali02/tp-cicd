@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: tp-gitops
-          image: docker.io/mohamedali2000/tp-gitops:initial
+          image: docker.io/mohamedali2000/tp-gitops:0a824b3
           ports:
             - containerPort: 80
