@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: tp-gitops
+  namespace: tp-gitops
+spec:
+  selector:
+    app: tp-gitops
+  ports:
+    - port: 80
+      targetPort: 80
