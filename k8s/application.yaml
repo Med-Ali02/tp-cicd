@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Med-Ali02/tp-cicd-gitops.git
+    repoURL: https://github.com/Med-Ali02/tp-cicd.git
     targetRevision: main
     path: k8s
   destination:
